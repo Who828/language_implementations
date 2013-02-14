@@ -10,7 +10,7 @@ public class Token {
 
     public  String toString()
     {
-        String name = ListLexer.tokenNames[type];
+        String tname = ListLexer.tokenNames[type];
         return "<'" +text+ "'," +tname+">";
     }
 
